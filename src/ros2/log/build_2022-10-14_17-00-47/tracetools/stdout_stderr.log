@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'lttng-ust'
+--   Found lttng-ust, version 2.11.0
+LTTng found: tracing enabled
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /usr/include/x86_64-linux-gnu
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspaces/cse549_ros_hs/src/ros2/build/tracetools
+[35m[1mScanning dependencies of target tracetools[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tracetools.dir/src/utils.cpp.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/tracetools.dir/src/tracetools.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/tracetools.dir/src/tp_call.c.o[0m
+[ 66%] [32m[1mLinking CXX shared library libtracetools.so[0m
+[ 66%] Built target tracetools
+[35m[1mScanning dependencies of target status[0m
+[ 83%] [32mBuilding C object CMakeFiles/status.dir/src/status.c.o[0m
+[100%] [32m[1mLinking C executable status[0m
+[100%] Built target status
+-- Install configuration: ""
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/library_path.sh
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/library_path.dsv
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/lib/tracetools/status
+-- Set runtime path of "/workspaces/cse549_ros_hs/src/ros2/install/tracetools/lib/tracetools/status" to ""
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/config.h
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/utils.hpp
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/tp_call.h
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/visibility_control.hpp
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/tracetools.h
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/lib/libtracetools.so
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/ament_index/resource_index/package_run_dependencies/tracetools
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/ament_index/resource_index/parent_prefix_path/tracetools
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/ament_prefix_path.sh
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/path.sh
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/path.dsv
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.bash
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.sh
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.zsh
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.dsv
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/package.dsv
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/ament_index/resource_index/packages/tracetools
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetools_exportExport.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetools_exportExport-noconfig.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_link_flags-extras.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetoolsConfig.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetoolsConfig-version.cmake
+-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/package.xml

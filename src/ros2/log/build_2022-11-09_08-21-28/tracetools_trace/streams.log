@@ -1,0 +1,60 @@
+[0.810s] Invoking command in '/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/tracetools_trace': PYTHONPATH=/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracetools_trace build --build-base /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build install --prefix /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace --record /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/install.log --single-version-externally-managed
+[1.095s] running egg_info
+[1.095s] creating ../../build/tracetools_trace/tracetools_trace.egg-info
+[1.096s] writing ../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO
+[1.096s] writing dependency_links to ../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt
+[1.096s] writing entry points to ../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt
+[1.096s] writing requirements to ../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt
+[1.096s] writing top-level names to ../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt
+[1.098s] writing manifest file '../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[1.147s] reading manifest file '../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[1.148s] writing manifest file '../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[1.149s] running build
+[1.149s] running build_py
+[1.149s] creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build
+[1.149s] creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib
+[1.149s] creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace
+[1.149s] copying tracetools_trace/trace.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace
+[1.217s] copying tracetools_trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace
+[1.256s] creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.256s] copying tracetools_trace/tools/path.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.256s] copying tracetools_trace/tools/args.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.279s] copying tracetools_trace/tools/lttng.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.279s] copying tracetools_trace/tools/lttng_impl.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.279s] copying tracetools_trace/tools/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.279s] copying tracetools_trace/tools/names.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.279s] copying tracetools_trace/tools/lttng_stub.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools
+[1.292s] running install
+[1.293s] running install_lib
+[1.294s] creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace
+[1.295s] creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.295s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/path.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.295s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/args.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.295s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.295s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_impl.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.295s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.295s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/names.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.296s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_stub.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools
+[1.296s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/trace.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace
+[1.296s] copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace
+[1.297s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/path.py to path.cpython-38.pyc
+[1.299s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/args.py to args.cpython-38.pyc
+[1.300s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/lttng.py to lttng.cpython-38.pyc
+[1.301s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/lttng_impl.py to lttng_impl.cpython-38.pyc
+[1.303s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/__init__.py to __init__.cpython-38.pyc
+[1.303s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/names.py to names.cpython-38.pyc
+[1.304s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/lttng_stub.py to lttng_stub.cpython-38.pyc
+[1.304s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/trace.py to trace.cpython-38.pyc
+[1.305s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/__init__.py to __init__.cpython-38.pyc
+[1.305s] running install_data
+[1.306s] copying package.xml -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/tracetools_trace
+[1.306s] creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index
+[1.306s] creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index/resource_index
+[1.306s] creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index/resource_index/packages
+[1.306s] copying resource/tracetools_trace -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index/resource_index/packages
+[1.306s] running install_egg_info
+[1.308s] Copying ../../build/tracetools_trace/tracetools_trace.egg-info to /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace-1.0.5-py3.8.egg-info
+[1.309s] running install_scripts
+[1.334s] Installing trace script to /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/tracetools_trace
+[1.335s] writing list of installed files to '/workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/install.log'
+[1.361s] Invoked command in '/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/tracetools_trace' returned '0': PYTHONPATH=/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracetools_trace build --build-base /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build install --prefix /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace --record /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/install.log --single-version-externally-managed

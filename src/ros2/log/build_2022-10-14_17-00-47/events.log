@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000374] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000469] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.000689] (-) JobUnselected: {'identifier': 'ament_acceleration'}
+[0.000863] (-) JobUnselected: {'identifier': 'ament_cuda'}
+[0.001089] (-) JobUnselected: {'identifier': 'ament_vitis'}
+[0.001147] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.001178] (-) JobUnselected: {'identifier': 'composition'}
+[0.001217] (-) JobUnselected: {'identifier': 'demo_nodes_cpp'}
+[0.001254] (-) JobUnselected: {'identifier': 'demo_nodes_cpp_native'}
+[0.001284] (-) JobUnselected: {'identifier': 'demo_nodes_py'}
+[0.001312] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.001350] (-) JobUnselected: {'identifier': 'dummy_map_server'}
+[0.002578] (-) JobUnselected: {'identifier': 'dummy_robot_bringup'}
+[0.003050] (-) JobUnselected: {'identifier': 'dummy_sensors'}
+[0.003077] (-) JobUnselected: {'identifier': 'iceoryx_ros2_bridge'}
+[0.003134] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.003184] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.003232] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.003281] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.003329] (-) JobUnselected: {'identifier': 'image_tools'}
+[0.003376] (-) JobUnselected: {'identifier': 'image_view'}
+[0.003423] (-) JobUnselected: {'identifier': 'intra_process_demo'}
+[0.003470] (-) JobUnselected: {'identifier': 'lifecycle'}
+[0.003519] (-) JobUnselected: {'identifier': 'logging_demo'}
+[0.003567] (-) JobUnselected: {'identifier': 'pendulum_control'}
+[0.003614] (-) JobUnselected: {'identifier': 'pendulum_msgs'}
+[0.003661] (-) JobUnselected: {'identifier': 'quality_of_service_demo_cpp'}
+[0.003702] (-) JobUnselected: {'identifier': 'quality_of_service_demo_py'}
+[0.003745] (-) JobUnselected: {'identifier': 'rcl'}
+[0.003785] (-) JobUnselected: {'identifier': 'rcl_action'}
+[0.003824] (-) JobUnselected: {'identifier': 'rcl_lifecycle'}
+[0.003914] (-) JobUnselected: {'identifier': 'rcl_yaml_param_parser'}
+[0.003960] (-) JobUnselected: {'identifier': 'rclcpp'}
+[0.003989] (-) JobUnselected: {'identifier': 'rclcpp_action'}
+[0.004037] (-) JobUnselected: {'identifier': 'rclcpp_components'}
+[0.004065] (-) JobUnselected: {'identifier': 'rclcpp_lifecycle'}
+[0.004093] (-) JobUnselected: {'identifier': 'rcutils'}
+[0.004129] (-) JobUnselected: {'identifier': 'rmw'}
+[0.004209] (-) JobUnselected: {'identifier': 'rmw_cyclonedds_cpp'}
+[0.004252] (-) JobUnselected: {'identifier': 'rmw_dds_common'}
+[0.004302] (-) JobUnselected: {'identifier': 'rmw_fastrtps_cpp'}
+[0.004339] (-) JobUnselected: {'identifier': 'rmw_fastrtps_dynamic_cpp'}
+[0.004369] (-) JobUnselected: {'identifier': 'rmw_fastrtps_shared_cpp'}
+[0.004402] (-) JobUnselected: {'identifier': 'rmw_iceoryx_cpp'}
+[0.004431] (-) JobUnselected: {'identifier': 'rmw_implementation'}
+[0.004474] (-) JobUnselected: {'identifier': 'rmw_implementation_cmake'}
+[0.004516] (-) JobUnselected: {'identifier': 'ros2trace'}
+[0.004556] (-) JobUnselected: {'identifier': 'test_rmw_implementation'}
+[0.004595] (-) JobUnselected: {'identifier': 'topic_monitor'}
+[0.004676] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.004720] (-) JobUnselected: {'identifier': 'tracetools_launch'}
+[0.004749] (-) JobUnselected: {'identifier': 'tracetools_read'}
+[0.004788] (-) JobUnselected: {'identifier': 'tracetools_test'}
+[0.004824] (-) JobUnselected: {'identifier': 'tracetools_trace'}
+[0.004853] (-) JobUnselected: {'identifier': 'vitis_common'}
+[0.004884] (tracetools) JobQueued: {'identifier': 'tracetools', 'dependencies': OrderedDict()}
+[0.004927] (tracetools) JobStarted: {'identifier': 'tracetools'}
+[0.022861] (tracetools) JobProgress: {'identifier': 'tracetools', 'progress': 'cmake'}
+[0.023198] (tracetools) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/tracetools', '-DCMAKE_INSTALL_PREFIX=/workspaces/cse549_ros_hs/src/ros2/install/tracetools'], 'cwd': '/workspaces/cse549_ros_hs/src/ros2/build/tracetools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'cpsosdev1'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/cse549_ros_hs/install/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/bin/helpers/browser.sh'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/cse549_ros_hs/src/ros2/ros_acceleration'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2f9963f6-7dfe-4e2c-8e12-50074a39b18a.sock'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6f484d9df2dc1263c3048769654b91607ab12637.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/workspaces/cse549_ros_hs/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/cse549_ros_hs/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/bin/remote-cli:/workspaces/cse549_ros_hs/install/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('RTI_NC_LICENSE_ACCEPTED', 'yes'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6f484d9df2dc1263c3048769654b91607ab12637.sock","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', '1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-bb60b0b9a0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6f484d9df2dc1263c3048769654b91607ab12637.sock'), ('AMENT_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'dialog'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/cse549_ros_hs/src/ros2/build/tracetools'), ('PYTHONPATH', '/workspaces/cse549_ros_hs/build/topic_monitor:/workspaces/cse549_ros_hs/build/ros2acceleration:/workspaces/cse549_ros_hs/build/quality_of_service_demo_py:/workspaces/cse549_ros_hs/build/demo_nodes_py:/workspaces/cse549_ros_hs/build/camera_calibration/src:/workspaces/cse549_ros_hs/build/action_tutorials_py:/workspaces/cse549_ros_hs/install/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy')]), 'shell': False}
+[0.099627] (-) TimerEvent: {}
+[0.121291] (tracetools) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199677] (-) TimerEvent: {}
+[0.212078] (tracetools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.219227] (tracetools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299745] (-) TimerEvent: {}
+[0.334808] (tracetools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.336255] (tracetools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399816] (-) TimerEvent: {}
+[0.450594] (tracetools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.468362] (tracetools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.468915] (tracetools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.472741] (tracetools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.499884] (-) TimerEvent: {}
+[0.600073] (-) TimerEvent: {}
+[0.605321] (tracetools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.607112] (tracetools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700142] (-) TimerEvent: {}
+[0.739360] (tracetools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.757821] (tracetools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.758675] (tracetools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.764180] (tracetools) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.800212] (-) TimerEvent: {}
+[0.855521] (tracetools) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.855707] (tracetools) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900297] (-) TimerEvent: {}
+[1.000532] (-) TimerEvent: {}
+[1.100760] (-) TimerEvent: {}
+[1.149539] (tracetools) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.150817] (tracetools) StdoutLine: {'line': b"-- Checking for module 'lttng-ust'\n"}
+[1.171806] (tracetools) StdoutLine: {'line': b'--   Found lttng-ust, version 2.11.0\n'}
+[1.200829] (-) TimerEvent: {}
+[1.231096] (tracetools) StderrLine: {'line': b'LTTng found: tracing enabled\n'}
+[1.240285] (tracetools) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.300902] (-) TimerEvent: {}
+[1.401099] (-) TimerEvent: {}
+[1.426129] (tracetools) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.428508] (tracetools) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.428790] (tracetools) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /usr/include/x86_64-linux-gnu\n'}
+[1.428885] (tracetools) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.430851] (tracetools) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.431014] (tracetools) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.432225] (tracetools) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.434480] (tracetools) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.434631] (tracetools) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.435358] (tracetools) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.441075] (tracetools) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.449509] (tracetools) StdoutLine: {'line': b'-- Generating done\n'}
+[1.453100] (tracetools) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/cse549_ros_hs/src/ros2/build/tracetools\n'}
+[1.460042] (tracetools) CommandEnded: {'returncode': 0}
+[1.460985] (tracetools) JobProgress: {'identifier': 'tracetools', 'progress': 'build'}
+[1.462120] (tracetools) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/cse549_ros_hs/src/ros2/build/tracetools', '--', '-j32', '-l32'], 'cwd': '/workspaces/cse549_ros_hs/src/ros2/build/tracetools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'cpsosdev1'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/cse549_ros_hs/install/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/bin/helpers/browser.sh'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/cse549_ros_hs/src/ros2/ros_acceleration'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2f9963f6-7dfe-4e2c-8e12-50074a39b18a.sock'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6f484d9df2dc1263c3048769654b91607ab12637.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/workspaces/cse549_ros_hs/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/cse549_ros_hs/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/bin/remote-cli:/workspaces/cse549_ros_hs/install/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('RTI_NC_LICENSE_ACCEPTED', 'yes'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6f484d9df2dc1263c3048769654b91607ab12637.sock","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', '1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-bb60b0b9a0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6f484d9df2dc1263c3048769654b91607ab12637.sock'), ('AMENT_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'dialog'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/cse549_ros_hs/src/ros2/build/tracetools'), ('PYTHONPATH', '/workspaces/cse549_ros_hs/build/topic_monitor:/workspaces/cse549_ros_hs/build/ros2acceleration:/workspaces/cse549_ros_hs/build/quality_of_service_demo_py:/workspaces/cse549_ros_hs/build/demo_nodes_py:/workspaces/cse549_ros_hs/build/camera_calibration/src:/workspaces/cse549_ros_hs/build/action_tutorials_py:/workspaces/cse549_ros_hs/install/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy')]), 'shell': False}
+[1.501227] (-) TimerEvent: {}
+[1.529748] (tracetools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tracetools\x1b[0m\n'}
+[1.556276] (tracetools) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/tracetools.dir/src/utils.cpp.o\x1b[0m\n'}
+[1.556931] (tracetools) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/tracetools.dir/src/tracetools.c.o\x1b[0m\n'}
+[1.557067] (tracetools) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/tracetools.dir/src/tp_call.c.o\x1b[0m\n'}
+[1.601282] (-) TimerEvent: {}
+[1.701476] (-) TimerEvent: {}
+[1.801654] (-) TimerEvent: {}
+[1.901859] (-) TimerEvent: {}
+[1.930068] (tracetools) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libtracetools.so\x1b[0m\n'}
+[2.001943] (-) TimerEvent: {}
+[2.102219] (-) TimerEvent: {}
+[2.202553] (-) TimerEvent: {}
+[2.223689] (tracetools) StdoutLine: {'line': b'[ 66%] Built target tracetools\n'}
+[2.242237] (tracetools) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target status\x1b[0m\n'}
+[2.294859] (tracetools) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/status.dir/src/status.c.o\x1b[0m\n'}
+[2.302641] (-) TimerEvent: {}
+[2.357766] (tracetools) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C executable status\x1b[0m\n'}
+[2.402720] (-) TimerEvent: {}
+[2.502978] (-) TimerEvent: {}
+[2.572555] (tracetools) StdoutLine: {'line': b'[100%] Built target status\n'}
+[2.591969] (tracetools) CommandEnded: {'returncode': 0}
+[2.603258] (-) TimerEvent: {}
+[2.646729] (tracetools) JobProgress: {'identifier': 'tracetools', 'progress': 'install'}
+[2.666357] (tracetools) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/cse549_ros_hs/src/ros2/build/tracetools'], 'cwd': '/workspaces/cse549_ros_hs/src/ros2/build/tracetools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'cpsosdev1'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspaces/cse549_ros_hs/install/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/bin/helpers/browser.sh'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/workspaces/cse549_ros_hs/src/ros2/ros_acceleration'), ('TERM_PROGRAM_VERSION', '1.71.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2f9963f6-7dfe-4e2c-8e12-50074a39b18a.sock'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-6f484d9df2dc1263c3048769654b91607ab12637.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/workspaces/cse549_ros_hs/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/cse549_ros_hs/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/74b1f979648cc44d385a2286793c226e611f59e7/bin/remote-cli:/workspaces/cse549_ros_hs/install/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('RTI_NC_LICENSE_ACCEPTED', 'yes'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-6f484d9df2dc1263c3048769654b91607ab12637.sock","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', '1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-bb60b0b9a0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-6f484d9df2dc1263c3048769654b91607ab12637.sock'), ('AMENT_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'dialog'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/cse549_ros_hs/src/ros2/build/tracetools'), ('PYTHONPATH', '/workspaces/cse549_ros_hs/build/topic_monitor:/workspaces/cse549_ros_hs/build/ros2acceleration:/workspaces/cse549_ros_hs/build/quality_of_service_demo_py:/workspaces/cse549_ros_hs/build/demo_nodes_py:/workspaces/cse549_ros_hs/build/camera_calibration/src:/workspaces/cse549_ros_hs/build/action_tutorials_py:/workspaces/cse549_ros_hs/install/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/cse549_ros_hs/install:/opt/ros/foxy')]), 'shell': False}
+[2.679955] (tracetools) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.680247] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/library_path.sh\n'}
+[2.680433] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/library_path.dsv\n'}
+[2.680804] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/lib/tracetools/status\n'}
+[2.681486] (tracetools) StdoutLine: {'line': b'-- Set runtime path of "/workspaces/cse549_ros_hs/src/ros2/install/tracetools/lib/tracetools/status" to ""\n'}
+[2.681617] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include\n'}
+[2.681749] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools\n'}
+[2.681889] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/config.h\n'}
+[2.682007] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/utils.hpp\n'}
+[2.682132] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/tp_call.h\n'}
+[2.682325] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/visibility_control.hpp\n'}
+[2.682491] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/include/tracetools/tracetools.h\n'}
+[2.682804] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/lib/libtracetools.so\n'}
+[2.683817] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/ament_index/resource_index/package_run_dependencies/tracetools\n'}
+[2.684125] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/ament_index/resource_index/parent_prefix_path/tracetools\n'}
+[2.684361] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/ament_prefix_path.sh\n'}
+[2.684593] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/ament_prefix_path.dsv\n'}
+[2.684818] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/path.sh\n'}
+[2.685061] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/environment/path.dsv\n'}
+[2.685259] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.bash\n'}
+[2.685472] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.sh\n'}
+[2.685679] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.zsh\n'}
+[2.685897] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/local_setup.dsv\n'}
+[2.686102] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/package.dsv\n'}
+[2.686402] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/ament_index/resource_index/packages/tracetools\n'}
+[2.686717] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetools_exportExport.cmake\n'}
+[2.686949] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetools_exportExport-noconfig.cmake\n'}
+[2.687180] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.687398] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.687608] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.687837] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/ament_cmake_export_link_flags-extras.cmake\n'}
+[2.688047] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetoolsConfig.cmake\n'}
+[2.688209] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/cmake/tracetoolsConfig-version.cmake\n'}
+[2.688419] (tracetools) StdoutLine: {'line': b'-- Installing: /workspaces/cse549_ros_hs/src/ros2/install/tracetools/share/tracetools/package.xml\n'}
+[2.691015] (tracetools) CommandEnded: {'returncode': 0}
+[2.703500] (-) TimerEvent: {}
+[2.790566] (tracetools) JobEnded: {'identifier': 'tracetools', 'rc': 0}
+[2.791780] (-) EventReactorShutdown: {}

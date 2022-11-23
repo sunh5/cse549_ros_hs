@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/ros2trace/ros2trace.egg-info
+writing ../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+writing requirements to ../../build/ros2trace/ros2trace.egg-info/requires.txt
+writing top-level names to ../../build/ros2trace/ros2trace.egg-info/top_level.txt
+writing manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build
+creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib
+creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace
+copying ros2trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace
+creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command
+copying ros2trace/command/trace.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command
+copying ros2trace/command/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command
+creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api
+copying ros2trace/api/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api
+running install
+running install_lib
+creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace
+creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command/trace.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api
+copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api
+copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace
+byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/trace.py to trace.cpython-38.pyc
+byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying package.xml -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ros2trace
+creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index
+creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index
+creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index/packages
+copying resource/ros2trace -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../build/ros2trace/ros2trace.egg-info to /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace-1.0.5-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/workspaces/cse549_ros_hs/src/ros2/build/ros2trace/install.log'

@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000385] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000480] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.000709] (-) JobUnselected: {'identifier': 'ament_acceleration'}
+[0.000897] (-) JobUnselected: {'identifier': 'ament_cuda'}
+[0.001126] (-) JobUnselected: {'identifier': 'ament_vitis'}
+[0.001184] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.001213] (-) JobUnselected: {'identifier': 'composition'}
+[0.001241] (-) JobUnselected: {'identifier': 'demo_nodes_cpp'}
+[0.001281] (-) JobUnselected: {'identifier': 'demo_nodes_cpp_native'}
+[0.001309] (-) JobUnselected: {'identifier': 'demo_nodes_py'}
+[0.001350] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.001863] (-) JobUnselected: {'identifier': 'dummy_map_server'}
+[0.002353] (-) JobUnselected: {'identifier': 'dummy_robot_bringup'}
+[0.002413] (-) JobUnselected: {'identifier': 'dummy_sensors'}
+[0.002464] (-) JobUnselected: {'identifier': 'iceoryx_ros2_bridge'}
+[0.002511] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.002558] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.002604] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.002652] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.002699] (-) JobUnselected: {'identifier': 'image_tools'}
+[0.002745] (-) JobUnselected: {'identifier': 'image_view'}
+[0.002792] (-) JobUnselected: {'identifier': 'intra_process_demo'}
+[0.002838] (-) JobUnselected: {'identifier': 'lifecycle'}
+[0.002884] (-) JobUnselected: {'identifier': 'logging_demo'}
+[0.002930] (-) JobUnselected: {'identifier': 'pendulum_control'}
+[0.002976] (-) JobUnselected: {'identifier': 'pendulum_msgs'}
+[0.003022] (-) JobUnselected: {'identifier': 'quality_of_service_demo_cpp'}
+[0.003068] (-) JobUnselected: {'identifier': 'quality_of_service_demo_py'}
+[0.003116] (-) JobUnselected: {'identifier': 'rcl'}
+[0.003163] (-) JobUnselected: {'identifier': 'rcl_action'}
+[0.003210] (-) JobUnselected: {'identifier': 'rcl_lifecycle'}
+[0.003256] (-) JobUnselected: {'identifier': 'rcl_yaml_param_parser'}
+[0.003297] (-) JobUnselected: {'identifier': 'rclcpp'}
+[0.003340] (-) JobUnselected: {'identifier': 'rclcpp_action'}
+[0.003380] (-) JobUnselected: {'identifier': 'rclcpp_components'}
+[0.003419] (-) JobUnselected: {'identifier': 'rclcpp_lifecycle'}
+[0.003507] (-) JobUnselected: {'identifier': 'rcutils'}
+[0.003553] (-) JobUnselected: {'identifier': 'rmw'}
+[0.003607] (-) JobUnselected: {'identifier': 'rmw_cyclonedds_cpp'}
+[0.003647] (-) JobUnselected: {'identifier': 'rmw_dds_common'}
+[0.003728] (-) JobUnselected: {'identifier': 'rmw_fastrtps_cpp'}
+[0.003771] (-) JobUnselected: {'identifier': 'rmw_fastrtps_dynamic_cpp'}
+[0.003821] (-) JobUnselected: {'identifier': 'rmw_fastrtps_shared_cpp'}
+[0.003859] (-) JobUnselected: {'identifier': 'rmw_iceoryx_cpp'}
+[0.003887] (-) JobUnselected: {'identifier': 'rmw_implementation'}
+[0.003917] (-) JobUnselected: {'identifier': 'rmw_implementation_cmake'}
+[0.003944] (-) JobUnselected: {'identifier': 'test_rmw_implementation'}
+[0.003971] (-) JobUnselected: {'identifier': 'topic_monitor'}
+[0.004013] (-) JobUnselected: {'identifier': 'tracetools'}
+[0.004056] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.004096] (-) JobUnselected: {'identifier': 'tracetools_launch'}
+[0.004135] (-) JobUnselected: {'identifier': 'tracetools_read'}
+[0.004213] (-) JobUnselected: {'identifier': 'tracetools_test'}
+[0.004258] (-) JobUnselected: {'identifier': 'vitis_common'}
+[0.004302] (tracetools_trace) JobQueued: {'identifier': 'tracetools_trace', 'dependencies': OrderedDict()}
+[0.004341] (ros2trace) JobQueued: {'identifier': 'ros2trace', 'dependencies': OrderedDict([('tracetools_trace', '/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace')])}
+[0.004377] (tracetools_trace) JobStarted: {'identifier': 'tracetools_trace'}
+[0.099017] (-) TimerEvent: {}
+[0.199488] (-) TimerEvent: {}
+[0.299705] (-) TimerEvent: {}
+[0.399948] (-) TimerEvent: {}
+[0.500301] (-) TimerEvent: {}
+[0.600456] (-) TimerEvent: {}
+[0.700616] (-) TimerEvent: {}
+[0.800769] (-) TimerEvent: {}
+[0.813041] (tracetools_trace) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/tracetools_trace', 'build', '--build-base', '/workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build', 'install', '--prefix', '/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace', '--record', '/workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/tracetools_trace', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'cpsosdev1', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/workspaces/cse549_ros_hs/install/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/helpers/browser.sh', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'HOME': '/home/ros', 'OLDPWD': '/workspaces/cse549_ros_hs/src', 'TERM_PROGRAM_VERSION': '1.73.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-5df962a1-0ea8-420f-928f-f3203fd01ac9.sock', 'ROS_PYTHON_VERSION': '3', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-5.3.1', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspaces/cse549_ros_hs/install:/opt/ros/foxy', 'ROS_DISTRO': 'foxy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-31afa3742479bb342f35b3f2282370a1836eae3b.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/workspaces/cse549_ros_hs/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/cse549_ros_hs/install/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/remote-cli:/workspaces/cse549_ros_hs/install/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'RTI_NC_LICENSE_ACCEPTED': 'yes', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-31afa3742479bb342f35b3f2282370a1836eae3b.sock","/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-bb60b0b9a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-31afa3742479bb342f35b3f2282370a1836eae3b.sock', 'AMENT_PREFIX_PATH': '/workspaces/cse549_ros_hs/install:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'dialog', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace', 'PYTHONPATH': '/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages:/workspaces/cse549_ros_hs/build/tracetools_launch:/workspaces/cse549_ros_hs/build/ros2trace:/workspaces/cse549_ros_hs/build/tracetools_trace:/workspaces/cse549_ros_hs/build/ros2trace_analysis:/workspaces/cse549_ros_hs/build/tracetools_analysis:/workspaces/cse549_ros_hs/build/tracetools_read:/workspaces/cse549_ros_hs/build/performance_report:/workspaces/cse549_ros_hs/build/topic_monitor:/workspaces/cse549_ros_hs/build/ros2acceleration:/workspaces/cse549_ros_hs/build/quality_of_service_demo_py:/workspaces/cse549_ros_hs/build/demo_nodes_py:/workspaces/cse549_ros_hs/build/camera_calibration/src:/workspaces/cse549_ros_hs/build/action_tutorials_py:/workspaces/cse549_ros_hs/install/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/cse549_ros_hs/install'}, 'shell': False}
+[0.900932] (-) TimerEvent: {}
+[1.001289] (-) TimerEvent: {}
+[1.099070] (tracetools_trace) StdoutLine: {'line': b'running egg_info\n'}
+[1.099661] (tracetools_trace) StdoutLine: {'line': b'creating ../../build/tracetools_trace/tracetools_trace.egg-info\n'}
+[1.099835] (tracetools_trace) StdoutLine: {'line': b'writing ../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO\n'}
+[1.100082] (tracetools_trace) StdoutLine: {'line': b'writing dependency_links to ../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt\n'}
+[1.100246] (tracetools_trace) StdoutLine: {'line': b'writing entry points to ../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt\n'}
+[1.100379] (tracetools_trace) StdoutLine: {'line': b'writing requirements to ../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt\n'}
+[1.100501] (tracetools_trace) StdoutLine: {'line': b'writing top-level names to ../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt\n'}
+[1.101355] (-) TimerEvent: {}
+[1.102154] (tracetools_trace) StdoutLine: {'line': b"writing manifest file '../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'\n"}
+[1.151669] (tracetools_trace) StdoutLine: {'line': b"reading manifest file '../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'\n"}
+[1.152775] (tracetools_trace) StdoutLine: {'line': b"writing manifest file '../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'\n"}
+[1.152921] (tracetools_trace) StdoutLine: {'line': b'running build\n'}
+[1.153040] (tracetools_trace) StdoutLine: {'line': b'running build_py\n'}
+[1.153165] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build\n'}
+[1.153301] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib\n'}
+[1.153421] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace\n'}
+[1.153512] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/trace.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace\n'}
+[1.201443] (-) TimerEvent: {}
+[1.221417] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace\n'}
+[1.260266] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.260407] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/tools/path.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.260532] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/tools/args.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.283113] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/tools/lttng.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.283270] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/tools/lttng_impl.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.283460] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/tools/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.283595] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/tools/names.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.283743] (tracetools_trace) StdoutLine: {'line': b'copying tracetools_trace/tools/lttng_stub.py -> /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools\n'}
+[1.296386] (tracetools_trace) StdoutLine: {'line': b'running install\n'}
+[1.297583] (tracetools_trace) StdoutLine: {'line': b'running install_lib\n'}
+[1.298809] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace\n'}
+[1.298954] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.299071] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/path.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.299222] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/args.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.299375] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.299518] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_impl.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.299673] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.299813] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/names.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.299953] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_stub.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools\n'}
+[1.300408] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/trace.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace\n'}
+[1.300559] (tracetools_trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/build/lib/tracetools_trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace\n'}
+[1.301375] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/path.py to path.cpython-38.pyc\n'}
+[1.301469] (-) TimerEvent: {}
+[1.303208] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/args.py to args.cpython-38.pyc\n'}
+[1.304010] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/lttng.py to lttng.cpython-38.pyc\n'}
+[1.304872] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/lttng_impl.py to lttng_impl.cpython-38.pyc\n'}
+[1.307154] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/__init__.py to __init__.cpython-38.pyc\n'}
+[1.307563] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/names.py to names.cpython-38.pyc\n'}
+[1.308098] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/tools/lttng_stub.py to lttng_stub.cpython-38.pyc\n'}
+[1.308472] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/trace.py to trace.cpython-38.pyc\n'}
+[1.309234] (tracetools_trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace/__init__.py to __init__.cpython-38.pyc\n'}
+[1.309461] (tracetools_trace) StdoutLine: {'line': b'running install_data\n'}
+[1.309966] (tracetools_trace) StdoutLine: {'line': b'copying package.xml -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/tracetools_trace\n'}
+[1.310156] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index\n'}
+[1.310298] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index/resource_index\n'}
+[1.310419] (tracetools_trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index/resource_index/packages\n'}
+[1.310533] (tracetools_trace) StdoutLine: {'line': b'copying resource/tracetools_trace -> /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/share/ament_index/resource_index/packages\n'}
+[1.310624] (tracetools_trace) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.312557] (tracetools_trace) StdoutLine: {'line': b'Copying ../../build/tracetools_trace/tracetools_trace.egg-info to /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace-1.0.5-py3.8.egg-info\n'}
+[1.313681] (tracetools_trace) StdoutLine: {'line': b'running install_scripts\n'}
+[1.338741] (tracetools_trace) StdoutLine: {'line': b'Installing trace script to /workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/tracetools_trace\n'}
+[1.339387] (tracetools_trace) StdoutLine: {'line': b"writing list of installed files to '/workspaces/cse549_ros_hs/src/ros2/build/tracetools_trace/install.log'\n"}
+[1.365474] (tracetools_trace) CommandEnded: {'returncode': 0}
+[1.388090] (tracetools_trace) JobEnded: {'identifier': 'tracetools_trace', 'rc': 0}
+[1.390810] (ros2trace) JobStarted: {'identifier': 'ros2trace'}
+[1.402412] (-) TimerEvent: {}
+[1.503296] (-) TimerEvent: {}
+[1.603771] (-) TimerEvent: {}
+[1.704550] (-) TimerEvent: {}
+[1.807615] (-) TimerEvent: {}
+[1.908029] (-) TimerEvent: {}
+[2.008235] (-) TimerEvent: {}
+[2.108405] (-) TimerEvent: {}
+[2.202781] (ros2trace) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2trace', 'build', '--build-base', '/workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build', 'install', '--prefix', '/workspaces/cse549_ros_hs/src/ros2/install/ros2trace', '--record', '/workspaces/cse549_ros_hs/src/ros2/build/ros2trace/install.log', '--single-version-externally-managed'], 'cwd': '/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/ros2trace', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'cpsosdev1', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/workspaces/cse549_ros_hs/install/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/helpers/browser.sh', 'AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS': '1', 'HOME': '/home/ros', 'OLDPWD': '/workspaces/cse549_ros_hs/src', 'TERM_PROGRAM_VERSION': '1.73.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-5df962a1-0ea8-420f-928f-f3203fd01ac9.sock', 'ROS_PYTHON_VERSION': '3', 'NDDSHOME': '/opt/rti.com/rti_connext_dds-5.3.1', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspaces/cse549_ros_hs/install:/opt/ros/foxy', 'ROS_DISTRO': 'foxy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-31afa3742479bb342f35b3f2282370a1836eae3b.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/workspaces/cse549_ros_hs/install/lib/x86_64-linux-gnu/pkgconfig:/workspaces/cse549_ros_hs/install/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/bin/remote-cli:/workspaces/cse549_ros_hs/install/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'RTI_NC_LICENSE_ACCEPTED': 'yes', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-31afa3742479bb342f35b3f2282370a1836eae3b.sock","/home/ros/.gnupg/S.gpg-agent"]', 'DISPLAY': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-bb60b0b9a0.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-31afa3742479bb342f35b3f2282370a1836eae3b.sock', 'AMENT_PREFIX_PATH': '/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace:/workspaces/cse549_ros_hs/install:/opt/ros/foxy', 'DEBIAN_FRONTEND': 'dialog', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/cse549_ros_hs/src/ros2/build/ros2trace', 'PYTHONPATH': '/workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages:/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages:/workspaces/cse549_ros_hs/build/tracetools_launch:/workspaces/cse549_ros_hs/build/ros2trace:/workspaces/cse549_ros_hs/build/tracetools_trace:/workspaces/cse549_ros_hs/build/ros2trace_analysis:/workspaces/cse549_ros_hs/build/tracetools_analysis:/workspaces/cse549_ros_hs/build/tracetools_read:/workspaces/cse549_ros_hs/build/performance_report:/workspaces/cse549_ros_hs/build/topic_monitor:/workspaces/cse549_ros_hs/build/ros2acceleration:/workspaces/cse549_ros_hs/build/quality_of_service_demo_py:/workspaces/cse549_ros_hs/build/demo_nodes_py:/workspaces/cse549_ros_hs/build/camera_calibration/src:/workspaces/cse549_ros_hs/build/action_tutorials_py:/workspaces/cse549_ros_hs/install/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/cse549_ros_hs/install'}, 'shell': False}
+[2.208497] (-) TimerEvent: {}
+[2.308787] (-) TimerEvent: {}
+[2.408991] (-) TimerEvent: {}
+[2.488725] (ros2trace) StdoutLine: {'line': b'running egg_info\n'}
+[2.489297] (ros2trace) StdoutLine: {'line': b'creating ../../build/ros2trace/ros2trace.egg-info\n'}
+[2.489474] (ros2trace) StdoutLine: {'line': b'writing ../../build/ros2trace/ros2trace.egg-info/PKG-INFO\n'}
+[2.490134] (ros2trace) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2trace/ros2trace.egg-info/dependency_links.txt\n'}
+[2.490350] (ros2trace) StdoutLine: {'line': b'writing entry points to ../../build/ros2trace/ros2trace.egg-info/entry_points.txt\n'}
+[2.490490] (ros2trace) StdoutLine: {'line': b'writing requirements to ../../build/ros2trace/ros2trace.egg-info/requires.txt\n'}
+[2.490614] (ros2trace) StdoutLine: {'line': b'writing top-level names to ../../build/ros2trace/ros2trace.egg-info/top_level.txt\n'}
+[2.492273] (ros2trace) StdoutLine: {'line': b"writing manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'\n"}
+[2.509063] (-) TimerEvent: {}
+[2.541804] (ros2trace) StdoutLine: {'line': b"reading manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'\n"}
+[2.542839] (ros2trace) StdoutLine: {'line': b"writing manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'\n"}
+[2.542999] (ros2trace) StdoutLine: {'line': b'running build\n'}
+[2.543121] (ros2trace) StdoutLine: {'line': b'running build_py\n'}
+[2.543247] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build\n'}
+[2.543366] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib\n'}
+[2.543505] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace\n'}
+[2.543597] (ros2trace) StdoutLine: {'line': b'copying ros2trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace\n'}
+[2.592886] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command\n'}
+[2.593027] (ros2trace) StdoutLine: {'line': b'copying ros2trace/command/trace.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command\n'}
+[2.609133] (-) TimerEvent: {}
+[2.634263] (ros2trace) StdoutLine: {'line': b'copying ros2trace/command/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command\n'}
+[2.650212] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api\n'}
+[2.650347] (ros2trace) StdoutLine: {'line': b'copying ros2trace/api/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api\n'}
+[2.660511] (ros2trace) StdoutLine: {'line': b'running install\n'}
+[2.661944] (ros2trace) StdoutLine: {'line': b'running install_lib\n'}
+[2.663316] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace\n'}
+[2.663448] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command\n'}
+[2.663571] (ros2trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command/trace.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command\n'}
+[2.663726] (ros2trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command\n'}
+[2.663901] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api\n'}
+[2.664020] (ros2trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api\n'}
+[2.664144] (ros2trace) StdoutLine: {'line': b'copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace\n'}
+[2.665018] (ros2trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/trace.py to trace.cpython-38.pyc\n'}
+[2.666943] (ros2trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/__init__.py to __init__.cpython-38.pyc\n'}
+[2.667200] (ros2trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api/__init__.py to __init__.cpython-38.pyc\n'}
+[2.667454] (ros2trace) StdoutLine: {'line': b'byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/__init__.py to __init__.cpython-38.pyc\n'}
+[2.667693] (ros2trace) StdoutLine: {'line': b'running install_data\n'}
+[2.668262] (ros2trace) StdoutLine: {'line': b'copying package.xml -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ros2trace\n'}
+[2.668453] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index\n'}
+[2.668590] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index\n'}
+[2.668711] (ros2trace) StdoutLine: {'line': b'creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index/packages\n'}
+[2.668826] (ros2trace) StdoutLine: {'line': b'copying resource/ros2trace -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index/packages\n'}
+[2.668917] (ros2trace) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.671160] (ros2trace) StdoutLine: {'line': b'Copying ../../build/ros2trace/ros2trace.egg-info to /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace-1.0.5-py3.8.egg-info\n'}
+[2.672426] (ros2trace) StdoutLine: {'line': b'running install_scripts\n'}
+[2.698438] (ros2trace) StdoutLine: {'line': b"writing list of installed files to '/workspaces/cse549_ros_hs/src/ros2/build/ros2trace/install.log'\n"}
+[2.709210] (-) TimerEvent: {}
+[2.728425] (ros2trace) CommandEnded: {'returncode': 0}
+[2.740189] (ros2trace) JobEnded: {'identifier': 'ros2trace', 'rc': 0}
+[2.741085] (-) EventReactorShutdown: {}

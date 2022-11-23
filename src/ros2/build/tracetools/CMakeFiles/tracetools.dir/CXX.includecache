@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/tracetools/src/utils.cpp
+tracetools/config.h
+/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/tracetools/src/tracetools/config.h
+dlfcn.h
+-
+cxxabi.h
+-
+tracetools/utils.hpp
+/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/tracetools/src/tracetools/utils.hpp
+
+include/tracetools/config.h
+
+include/tracetools/utils.hpp
+stddef.h
+-
+functional
+-
+tracetools/visibility_control.hpp
+include/tracetools/tracetools/visibility_control.hpp
+
+include/tracetools/visibility_control.hpp
+

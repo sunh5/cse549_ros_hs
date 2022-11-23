@@ -1,0 +1,46 @@
+[0.816s] Invoking command in '/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/ros2trace': AMENT_PREFIX_PATH=/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace:${AMENT_PREFIX_PATH} PYTHONPATH=/workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages:/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2trace build --build-base /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build install --prefix /workspaces/cse549_ros_hs/src/ros2/install/ros2trace --record /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/install.log --single-version-externally-managed
+[1.098s] running egg_info
+[1.099s] creating ../../build/ros2trace/ros2trace.egg-info
+[1.099s] writing ../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[1.099s] writing dependency_links to ../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[1.100s] writing entry points to ../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[1.100s] writing requirements to ../../build/ros2trace/ros2trace.egg-info/requires.txt
+[1.100s] writing top-level names to ../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[1.101s] writing manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.151s] reading manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.152s] writing manifest file '../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[1.152s] running build
+[1.152s] running build_py
+[1.152s] creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build
+[1.153s] creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib
+[1.153s] creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace
+[1.153s] copying ros2trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace
+[1.202s] creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command
+[1.202s] copying ros2trace/command/trace.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command
+[1.243s] copying ros2trace/command/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command
+[1.259s] creating /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api
+[1.260s] copying ros2trace/api/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api
+[1.270s] running install
+[1.271s] running install_lib
+[1.273s] creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace
+[1.273s] creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+[1.273s] copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command/trace.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+[1.273s] copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+[1.273s] creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api
+[1.273s] copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api
+[1.273s] copying /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build/lib/ros2trace/__init__.py -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace
+[1.274s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/trace.py to trace.cpython-38.pyc
+[1.276s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/__init__.py to __init__.cpython-38.pyc
+[1.276s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/api/__init__.py to __init__.cpython-38.pyc
+[1.277s] byte-compiling /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace/__init__.py to __init__.cpython-38.pyc
+[1.277s] running install_data
+[1.277s] copying package.xml -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ros2trace
+[1.278s] creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index
+[1.278s] creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index
+[1.278s] creating /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index/packages
+[1.278s] copying resource/ros2trace -> /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/share/ament_index/resource_index/packages
+[1.278s] running install_egg_info
+[1.280s] Copying ../../build/ros2trace/ros2trace.egg-info to /workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages/ros2trace-1.0.5-py3.8.egg-info
+[1.282s] running install_scripts
+[1.308s] writing list of installed files to '/workspaces/cse549_ros_hs/src/ros2/build/ros2trace/install.log'
+[1.338s] Invoked command in '/workspaces/cse549_ros_hs/src/ros2/ros2_tracing/ros2trace' returned '0': AMENT_PREFIX_PATH=/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace:${AMENT_PREFIX_PATH} PYTHONPATH=/workspaces/cse549_ros_hs/src/ros2/install/ros2trace/lib/python3.8/site-packages:/workspaces/cse549_ros_hs/src/ros2/install/tracetools_trace/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2trace build --build-base /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/build install --prefix /workspaces/cse549_ros_hs/src/ros2/install/ros2trace --record /workspaces/cse549_ros_hs/src/ros2/build/ros2trace/install.log --single-version-externally-managed

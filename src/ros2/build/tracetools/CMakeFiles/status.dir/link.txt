@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/status.dir/src/status.c.o  -o status  -Wl,-rpath,/workspaces/cse549_ros_hs/src/ros2/build/tracetools: libtracetools.so -llttng-ust -ldl -rdynamic 
